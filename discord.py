@@ -2,8 +2,6 @@ import discord
 from discord.ext import commads
 from korcen import korcen
 
-korcen = korcen.korcen()
-
 @bot.event
 async def on_message(message):
     print(korcen.check(message.content))
