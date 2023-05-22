@@ -1,7 +1,5 @@
 from korcen import korcen
 
-korcen = korcen.korcen()
-
 text = input()
 
 a = korcen.check(text)
